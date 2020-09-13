@@ -1,0 +1,44 @@
+
+.inicio__titulo {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	color: #ff7315;
+	font-size: 250%;
+	letter-spacing: 3px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	transition: all 1s;
+}
+
+.inicio__titulo:hover {
+	font-size: 320%;
+}
+
+/* SUBTITULO DE PAG INICIO */
+.inicio__bienvenidos {
+	text-align: center;
+	font-size: 160%;
+	letter-spacing: 8px;
+	font-style: italic;
+	font-weight: bold;
+	color: #f4f4f4;
+	font-family: 'Raleway', sans-serif;
+	transition: all 1s;	
+}
+
+.inicio__bienvenidos:hover {
+	font-size: 200%;
+}
+
+/* FIN SUBTITULO PAG INICIO */
+
+/* SEGUNDO TITULO HOME */
+
+.home__segundotitulo {
+	font-family: 'Raleway', sans-serif;
+	color: #ff7315;
+	font-weight: bold;
+	font-size: 130%;
+	letter-spacing: 2px;
+	line-height: 1.6;
+}

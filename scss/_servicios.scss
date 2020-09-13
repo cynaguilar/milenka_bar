@@ -1,0 +1,124 @@
+
+.servicios__titulo {
+	font-family: 'Raleway', sans-serif;
+	color: #ff7315;
+	font-weight: bold;
+	font-size: 150%;
+	letter-spacing: 2px;
+	line-height: 1.6;
+	transition: all 1s;
+	padding-top: 20px;
+}
+
+.servicios__titulo:hover {
+	font-size: 200%;
+}
+
+.servicios__texto {
+	font-family: 'Raleway', sans-serif;
+	color: #f4f4f4;
+	letter-spacing: 3px;
+	font-size: 120%;
+	line-height: 1.6;	
+}
+
+/* COMIENZO GRILLA SECCION SERVICIOS */
+
+article#servicios__grilla {  
+	display: grid;
+	grid-template-areas: 
+	"servicio__uno imagen__uno"
+	"servicio__dos imagen__dos"
+	"servicio__tres imagen__tres"
+	"servicio__cuatro imagen__cuatro";
+	grid-template-rows: repeat(4, 150px);
+	grid-template-columns: 1000px 1300px;
+	grid-row-gap: 20px;
+	grid-column-gap: 40px;
+	align-items: stretch;
+	margin-left: 15px;
+}
+
+div.servicio__uno {
+	grid-area: servicio__uno;
+	text-align: center;
+	font-size: 140%;
+	letter-spacing: 8px;
+	font-weight: bold;
+	color: #ff7315;
+	font-family: 'Raleway', sans-serif;	
+	transition: all 1s;	
+}
+
+div.imagen__uno:hover {
+	font-size: 180%;
+}
+
+div.servicio__dos {
+	grid-area: servicio__dos;
+	text-align: center;
+	font-size: 140%;
+	letter-spacing: 8px;
+	font-weight: bold;
+	color: #ff7315;
+	font-family: 'Raleway', sans-serif;
+	transition: all 1s;	
+}
+
+div.servicio__dos:hover {
+	font-size: 180%;
+}
+
+div.servicio__tres {
+	grid-area: servicio__tres;
+	text-align: center;
+	font-size: 140%;
+	letter-spacing: 8px;
+	font-weight: bold;
+	color: #ff7315;
+	font-family: 'Raleway', sans-serif;
+	transition: all 1s;	
+}
+
+div.servicio__tres:hover {
+	font-size: 180%;
+}
+
+div.servicio__cuatro {
+	grid-area: servicio__cuatro;
+	text-align: center;
+	font-size: 140%;
+	letter-spacing: 8px;
+	font-weight: bold;
+	color: #ff7315;
+	font-family: 'Raleway', sans-serif;	
+	transition: all 1s;	
+}
+
+div.servicio__cuatro:hover {
+	font-size: 180%;
+}
+
+img.imagen__uno  {
+	grid-area: imagen__uno;
+	justify-items: end;
+	transition: all 1s;
+}
+
+img.imagen__dos {
+	grid-area: imagen__dos;
+	justify-items: end;
+}
+
+img.imagen__tres {
+	grid-area: imagen__tres;
+	justify-items: end;
+}
+
+img.imagen__cuatro {
+	grid-area: imagen__cuatro;
+	justify-items: end;
+}
+
+
+/* FIN GRILLA SECCION SERVICIOS */

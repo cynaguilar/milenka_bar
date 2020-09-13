@@ -1,0 +1,123 @@
+
+.eventos__titulo {
+	font-family: 'Raleway', sans-serif;
+	color: #ff7315;
+	font-weight: bold;
+	font-size: 150%;
+	letter-spacing: 2px;
+	line-height: 1.6;
+	transition: all 1s;	
+	padding-top: 20px;
+}
+
+.eventos__titulo:hover {
+	font-size: 200%;
+}
+
+h2.eventos__titulo2 {
+	font-family: 'Raleway', sans-serif;
+	color: #f4f4f4;
+	text-align: center;
+	font-size: 130%;
+	letter-spacing: 2px;
+	line-height: 1.6;
+	transition: all 1s;
+}
+
+.eventos__titulo2:hover {
+	font-size: 180%;
+	color: #ff7315;
+}
+
+.eventos__texto {
+	font-family: 'Raleway', sans-serif;
+	color: #f4f4f4;
+	letter-spacing: 3px;
+	font-size: 100%;
+	line-height: 1.6;	
+}
+
+
+.eventos__textoentradas {
+	font-size: 120%;
+	font-family: 'Raleway', sans-serif;
+	color: #f4f4f4;
+	letter-spacing: 3px;
+	line-height: 1.6;
+	text-align: center;	
+}
+
+.eventos__link {
+	font-size: 140%;
+	font-family: 'Raleway', sans-serif;
+	color: #f4f4f4;
+	letter-spacing: 3px;
+	line-height: 1.6;
+	transition: all 1s;
+}
+
+.eventos__link:hover {
+	font-size: 160%;
+	font-weight: bold;
+	background-color: #9c549c;
+	text-decoration: none;
+	color: #f4f4f4;
+}
+
+
+/* GRILLA VIDEOS EN EVENTOS */
+
+#eventos__grillavideos {
+	display: grid;
+	grid-template-areas: 
+	"eventos__videouno eventos__videodos";
+	grid-template-rows: 400px;
+	grid-template-columns: repeat(2, 650px);
+	grid-row-gap: 10px;
+	grid-column-gap: 10px;
+	align-items: stretch;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+iframe.eventos__videouno {
+	grid-area: eventos__videouno;
+	border: 1px solid #f4f4f4;
+}
+
+iframe.eventos__videodos {
+	grid-area: eventos__videodos;
+	border: 2px solid #f4f4f4;
+}
+
+/* FIN DE GRILLA VIDEOS EN EVENTOS */
+
+
+/* COMIENZO TABLA EVENTOS */
+
+
+tr th {
+ 	height: 35px;
+ 	width: 200px;
+	font-size: 18px;
+	color: #f4f4f4;
+	text-transform: uppercase;
+	background-color: #900c3f;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+td {
+	height: 35px;
+	width: 200px;
+	text-align: center;
+	font-size: 13px;
+	color: #f4f4f4;
+	text-transform: uppercase;
+	background-color: #4a3f35;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+}
+
+/* FIN TABLA EVENTOS */

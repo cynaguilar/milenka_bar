@@ -1,0 +1,74 @@
+
+.tituloGaleria {
+	font-family: 'Raleway', sans-serif;
+	color: #ff7315;
+	font-weight: bold;
+	font-size: 150%;
+	letter-spacing: 2px;
+	line-height: 1.6;
+	transition: all 1s;
+	padding-top: 20px;			
+}
+
+.tituloGaleria:hover {
+	font-size: 200%;
+}
+
+.textoGaleria {
+	font-family: 'Raleway', sans-serif;
+	color: #f4f4f4;
+	letter-spacing: 3px;
+	font-size: 60%;
+	line-height: 1.6;	
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* VIDEOS EN SECCION GALERIA */
+.miraVideo {
+	text-align: center;
+	font-size: 130%;
+	font-family: 'Raleway', sans-serif;
+	color: #f4f4f4;
+	letter-spacing: 3px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 1.6;
+	transition: all 1s;	
+}
+
+.miraVideo:hover {
+	font-size: 180%;
+	color: #ff7315;
+}
+/* FIN VIDEOS SECCION GALERIA */
+
+/* COMIENZO GRILLA VIDEOS */
+
+#grillaVideos {
+	display: grid;
+	grid-template-areas: 
+	"videoUno videoDos";
+	grid-template-rows: 400px;
+	grid-template-columns: repeat(2, 650px);
+	grid-row-gap: 10px;
+	grid-column-gap: 10px;
+	align-items: stretch;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+iframe.videoUno {
+	grid-area: videoUno;
+	border: 1px solid #f4f4f4;
+}
+
+iframe.videoDos {
+	grid-area: videoDos;
+	border: 2px solid #f4f4f4;
+}
+
+/* FIN GRILLA VIDEOS */

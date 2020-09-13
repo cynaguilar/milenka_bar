@@ -1,0 +1,44 @@
+/* FONDO DEL SITIO */
+
+* {
+	background-image: url("https://us.123rf.com/450wm/yamonstro/yamonstro1504/yamonstro150400037/38991357-tecnolog%C3%ADa-estructura-pol%C3%ADgonos-geom%C3%A9trica-de-vectores-de-fondo-para-las-aplicaciones-aplicaciones-interfa.jpg?ver=6");
+}
+
+/* TEXTO RANDOM */
+
+h4 p {
+	font-family: 'Raleway', sans-serif;
+	color: #f4f4f4;
+	letter-spacing: 3px;
+	font-size: 60%;
+	line-height: 1.6;
+}
+
+/* FIN TEXTO RANDOM*/
+
+p {
+	font-family: 'Raleway', sans-serif;
+	color: #f4f4f4;
+	letter-spacing: 3px;
+	font-size: 80%;
+	line-height: 1.6;
+}
+
+ul { 
+	font-family: 'Raleway', sans-serif;
+	color: #f4f4f4;
+	letter-spacing: 3px;
+	line-height: 1.6;
+	list-style-type: none;
+	list-style-position: inside;
+	size: 3%; 
+} 
+
+a {
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	color: #f4f4f4;
+	letter-spacing: 3px;
+	line-height: 1.6;
+	text-align: justify;
+}
